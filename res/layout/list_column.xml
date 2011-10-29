@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:gravity="center_vertical" android:layout_height="wrap_content" android:orientation="vertical">
+    <FrameLayout android:layout_height="50px" android:id="@+id/frameLayout1" android:layout_width="match_parent">
+        <LinearLayout android:gravity="bottom" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+            <TextView android:layout_marginLeft="10dp" android:textSize="25px" android:layout_height="wrap_content" android:text="un know" android:inputType="textImeMultiLine" android:id="@+id/list_title" android:textColor="#CCCCCC" android:layout_width="match_parent"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/column"></LinearLayout>
+    </FrameLayout>
+    <ImageView android:src="@drawable/list_bar" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="match_parent" android:scaleType="centerCrop"></ImageView>
+
+</LinearLayout>

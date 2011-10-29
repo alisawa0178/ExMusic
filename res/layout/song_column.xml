@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:gravity="center_vertical" android:layout_height="wrap_content" android:orientation="vertical">
+    <FrameLayout android:id="@+id/frameLayout1" android:layout_width="match_parent" android:layout_height="50px">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:gravity="bottom" android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/linearLayout2" android:gravity="right|center_vertical" android:layout_width="40px" android:layout_marginRight="10px" android:layout_height="wrap_content">
+                <TextView android:id="@+id/num" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="25px" android:textColor="#3A3A3A"></TextView>
+            </LinearLayout>
+            <TextView android:textSize="25px" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/song_list_title" android:text="un know" android:inputType="textImeMultiLine" android:textColor="#848484"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/column"></LinearLayout>
+    </FrameLayout>
+<ImageView android:src="@drawable/list_bar" android:layout_height="wrap_content" android:layout_width="match_parent" android:scaleType="centerCrop"></ImageView>
+</LinearLayout>

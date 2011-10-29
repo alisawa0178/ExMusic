@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">ExMusic</string>
+    <string name="app_name0">Activity0</string>
+	<string name="app_name1">Activity1</string>
+	<string name="activity_animation_duration">300</string>
+</resources>

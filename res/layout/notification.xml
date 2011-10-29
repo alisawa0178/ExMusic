@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" android:orientation="horizontal">
+    <ImageView android:src="@drawable/emptycase" android:layout_width="wrap_content" android:layout_height="match_parent" android:cropToPadding="true" android:scaleType="centerInside" android:focusable="false" android:adjustViewBounds="true" android:id="@+id/Picture" android:layout_margin="5px"></ImageView>
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent" android:layout_weight="1">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView android:text="Album" android:textSize="30px" android:layout_height="wrap_content" android:id="@+id/album" android:layout_weight="1" android:layout_width="match_parent" android:inputType="textImeMultiLine"></TextView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:inputType="textImeMultiLine" android:text="1/10" android:id="@+id/nowPos"></TextView>
+        </LinearLayout>
+        <TextView android:id="@+id/title" android:ellipsize="marquee" android:layout_height="wrap_content" android:layout_width="match_parent" android:singleLine="true" android:textSize="25px" android:layout_marginLeft="10px" android:focusable="true" android:focusableInTouchMode="true" android:text="songTitle"></TextView>
+    </LinearLayout>
+</LinearLayout>
